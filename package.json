@@ -21,7 +21,7 @@
     "prettier": "2.8.1"
   },
   "dependencies": {
-    "axios": "^0.24.0",
+    "axios": "^1.13.2",
     "dotenv": "^16.0.3"
   },
   "aoc": {
@@ -37,6 +37,6 @@
       }
     ],
     "author": "mraxus",
-    "stars": 2
+    "stars": 4
   }
 }
