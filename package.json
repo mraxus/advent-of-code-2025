@@ -26,8 +26,18 @@
   },
   "aoc": {
     "year": 2025,
-    "days": [],
+    "days": [
+      {
+        "day": 1,
+        "name": "Secret Entrance"
+      }
+    ],
     "author": "mraxus",
     "stars": 0
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "^axios$": "axios/dist/node/axios.cjs"
+    }
   }
 }
