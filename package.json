@@ -1,0 +1,42 @@
+{
+  "name": "advent-of-code-2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "day": "node lib/scripts/setup-day.js",
+    "start": "node ./",
+    "latest": "node ./ --latest",
+    "test": "jest",
+    "test-latest": "jest -u --latest=",
+    "test-with-input": "jest -u --input=",
+    "test-latest-with-input": "jest -u --input= -u --latest=",
+    "watch": "jest --watch",
+    "watch-latest": "jest --watch -u --latest="
+  },
+  "author": "mraxus",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.4.5",
+    "prettier": "2.8.1"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^16.0.3"
+  },
+  "aoc": {
+    "year": 2023,
+    "days": [
+      {
+        "day": 1,
+        "name": "Trebuchet?!"
+      },
+      {
+        "day": 2,
+        "name": "Cube Conundrum"
+      }
+    ],
+    "author": "mraxus",
+    "stars": 2
+  }
+}
