@@ -1,5 +1,5 @@
 {
-  "name": "advent-of-code-2022",
+  "name": "advent-of-code-2025",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -25,18 +25,9 @@
     "dotenv": "^16.0.3"
   },
   "aoc": {
-    "year": 2023,
-    "days": [
-      {
-        "day": 1,
-        "name": "Trebuchet?!"
-      },
-      {
-        "day": 2,
-        "name": "Cube Conundrum"
-      }
-    ],
+    "year": 2025,
+    "days": [],
     "author": "mraxus",
-    "stars": 4
+    "stars": 0
   }
 }
