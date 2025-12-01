@@ -4163,10 +4163,32 @@ function part1(input, liveRun) {
 }
 
 function part2(input, liveRun) {
-  return null;
+    let dial = 50;
+    let zeroPasses = 0;
+
+    let s = [];
+
+    input.split('\n')
+        .map(line => line.match(/^(.)(.*)/))
+        .map(([_, turn, amount]) => `${turn === 'L' ? '-' : ''}${amount}`)
+        .map(Number)
+        .forEach(n => {
+            const extraTicks = (n - (n % 100));
+            const extraPasses = Math.abs(extraTicks / 100);
+
+            n -= extraTicks;
+
+            const dN = (((dial + n) % 100) + 100) % 100
+            const passZero = dial !== 0 && dN !== (dial + n);
+            dial = dN;
+
+            zeroPasses += (passZero || !dial ? 1 : 0) + extraPasses;
+        });
+
+    return zeroPasses;
 }
 
-part1.desc = 'Secret Entrance';
+part1.desc = 'Secret Entrance - Zero hits';
 part1.tests = [{
   input: `L68
 L30
@@ -4181,8 +4203,14 @@ L82`,
   result: 3
 }];
 
-part2.desc = '';
-part2.tests = [];
+part2.desc = 'Secret Entrance - Zero passes';
+part2.tests = [6, {
+    input: `L315`,
+    result: 3
+}, {
+    input: `R745`,
+    result: 7
+}];
 
 runIfMain(module, input, part1, part2);
 
