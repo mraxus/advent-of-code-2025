@@ -30,10 +30,18 @@
       {
         "day": 1,
         "name": "Secret Entrance"
+      },
+      {
+        "day": 2,
+        "name": "Gift Shop"
+      },
+      {
+        "day": 3,
+        "name": "Lobby"
       }
     ],
     "author": "mraxus",
-    "stars": 0
+    "stars": 4
   },
   "jest": {
     "moduleNameMapper": {
