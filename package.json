@@ -38,10 +38,14 @@
       {
         "day": 3,
         "name": "Lobby"
+      },
+      {
+        "day": 4,
+        "name": "Printing Department"
       }
     ],
     "author": "mraxus",
-    "stars": 4
+    "stars": 6
   },
   "jest": {
     "moduleNameMapper": {
