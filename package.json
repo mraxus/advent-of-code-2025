@@ -42,10 +42,14 @@
       {
         "day": 4,
         "name": "Printing Department"
+      },
+      {
+        "day": 5,
+        "name": "Cafeteria"
       }
     ],
     "author": "mraxus",
-    "stars": 6
+    "stars": 8
   },
   "jest": {
     "moduleNameMapper": {
