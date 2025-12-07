@@ -50,10 +50,14 @@
       {
         "day": 6,
         "name": "Trash Compactor"
+      },
+      {
+        "day": 7,
+        "name": "Laboratories"
       }
     ],
     "author": "mraxus",
-    "stars": 10
+    "stars": 12
   },
   "jest": {
     "moduleNameMapper": {
