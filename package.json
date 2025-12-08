@@ -54,10 +54,14 @@
       {
         "day": 7,
         "name": "Laboratories"
+      },
+      {
+        "day": 8,
+        "name": "Playground"
       }
     ],
     "author": "mraxus",
-    "stars": 12
+    "stars": 14
   },
   "jest": {
     "moduleNameMapper": {
